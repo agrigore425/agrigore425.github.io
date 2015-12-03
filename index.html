@@ -70,25 +70,38 @@
 								<h3>UW Hyperloop Preliminary Design Briefing</h3>
 								<p>This preliminary briefing is a great representation of the hard work our team has done. As an embedded engineer working on telemetry readings of the pod, my responsibilities include data streaming of position, velocity, acceleration, pressure, temperature, and much more. See slide 15 for more details. </p>
 							</article>
+
 							<article class="6u$ 12u$(xsmall) work-item">
 								<iframe width="420" height="315" src="https://www.youtube.com/embed/3sT-J5ucjyY?rel=0" frameborder="0" allowfullscreen></iframe>
 								<h3>Autonomous and Bluetooth Enabled RoboTank</h3>
 
-								<p>Robotank is a small tank my lab group designed to autonomously drive in confined spaces. Obstacle avoidance is implemented using distance sensor. The tank can also be controlled remotely through Bluetooth. Hardware used to complete this project included a TI Stellaris LM3S8962 board, analog distance sensors, and a tank chassis. All software, including PWMs, ADCs, UART, and drivers were all implemented in C. FreeRTOS (Real Time Operating System) was used to program the tank.
+								<p>Robotank is a chassis my lab group designed to autonomously drive in confined spaces. Obstacle avoidance is implemented using distance sensors. The tank can also be controlled remotely through Bluetooth. Hardware used to complete this project included a TI Stellaris LM3S8962 board, analog distance sensors, and a tank chassis. All software, including PWMs, ADCs, UART, and drivers were all implemented in C. FreeRTOS (Real Time Operating System) was used to program the tank.
 								</p>
 
 								<a href="projects/RobotankReport.pdf" class="button">Robotank Report</a>
 							</article>
+
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/03.jpg" class="image fit thumb"><img src="images/thumbs/03.jpg" alt="" /></a>
-								<h3>Tortor metus commodo</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="projects/AC_DC.jpg" class="image fit thumb"><img src="projects/AC_DC.jpg" alt="" /></a>
+								<h3>AC to DC Boost Converter</h3>
+								<p>This project involved the construction of an AC to DC Boost Converter from scratch. Our ADC was able to accept a ±7.5VAC(rms) voltage from a transformer and output a variable DC voltage between +10V to +20V based on the minimum and maximum resistance values of a 10 kΩ potentiometer. More about the design specifications and hardware implementations can be seen in the lab report.</p>
+
+								<a href="projects/AC_DC_Report.pdf" class="button">ADC Report</a>
+
 							</article>
+
+
+
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/04.jpg" class="image fit thumb"><img src="images/thumbs/04.jpg" alt="" /></a>
-								<h3>Quam neque phasellus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<a href="projects/UART.jpg" class="image fit thumb"><img src="projects/UART.jpg" alt="" /></a>
+								<h3>Universal Asynchronous Receiver/Transmitter (UART)</h3>
+								<p>This project required the construction of a functional Universal Asynchronous Receiver/Transmitter (UART) for a microprocessor-based application on the FPGA. The project needed to implement basic I/O processes for a complex system defined in C. Specific framing and timing techniques allowed for the asynchronous system to correctly implement I/O functionality. Furthermore, the system required network communication between gate arrays and between the console and the microprocessor. This system was initially tested by creating a testbench simulated using ModelSim and gtkwave. Synthesis into hardware was verified using SignalTap II. In hardware, the design allowed for both receiving and transmitting ten-bit words to memory. The second part of this project required the implementation of an application designed using the C language. This program allowed for console I/O interaction with the gate array.</p>
+
+								<a href="projects/UART_Report.pdf" class="button">UART Report</a>
 							</article>
+
+
+
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
 								<h3>Nunc enim commodo aliquet</h3>
